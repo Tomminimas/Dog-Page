@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    /*border: solid 2px tomato;*/
+
+}
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+}
+#welcome {
+    padding: 100px 10%;
+    text-align: center;
+}
+#welcome h2 {
+    margin: 0;
+}
+#welcome p {
+    margin: 50px auto;
+    width: 70%;
+}
+#welcome img {
+    width: 100%;
+}
+#what_we_do {
+    text-align: center;
+    padding: 5%;
+    padding-top: 0;
+}
+#what_we_do .container_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+#what_we_do .item_flex {
+    width: 25%;
+    padding: 20px;
+}
+#what_we_do img {
+    border-radius: 50%;
+}
+#what_we_do p {
+    color:gray;
+}
+header {
+    background-image: url(./img/1.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+header > #logo {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+header > nav {
+    position: absolute;
+    top: 0;
+    float: right;
+    margin-right: 50px;
+}
+nav > ul {
+    display: flex;
+    justify-content:space-around;
+    left: 50%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    overflow:auto;
+    
+}
+nav li {
+    display: flex;
+    font-size: 24px;
+    width: 30%;
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 10%;
+    float:left;
+    list-style-type: none;
+}
+nav a {
+    color:black;
+    padding: 15px;
+    display: block;
+}
+#main_header {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main_header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#main_header p {
+    color: white;
+}
+#main_header a {
+    border: solid 2px white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: inline-block;
+}
+#label_list {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+#label_list > label {
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 5px;
+    background: white;
+}
+#statistic {
+    color: white;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+.container{
+    padding: 20px;
+    margin: auto;
+    overflow: auto;
+}
+#statistic .container div {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+#statistic h2 {
+    text-align: center;
+    font-size: 70px;
+}
+#statistic p {
+    color: white;
+    margin: 0;
+}
+#statistic p:first-child {
+    font-size: 50px;
+}
+#services {
+    background-color: #f8f9fa;
+    padding: 100px;
+}
+
+#services #left {
+    width: 33%;
+    float: left;
+    padding: 0 50px;
+}
+
+#services #left p {
+    line-height: 2.5;
+}
+
+#services h2 {
+    margin-top: 0;
+    text-align: left;
+}
+#services #right {
+    width: 67%;
+    float: left;
+}
+
+#services .item {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    padding: 50px;
+    float: left;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, 0.1);
+}
+
+#services .item i {
+    color: #ff9900;
+    font-size: 3em;
+}
+#services .item h3 {
+    font-size: 2em;
+}
+
+#testimonials {
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    display:block;
+}
+#testimonials .container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#testimonials .item_flex {
+    width: 33%;
+    padding: 20px;
+}
+#testimonials img {
+    border-radius: 50%;
+}
+#testimonials h3 {
+    color:#ff9900;
+    text-align: right;
+}
+
+#our_blog {
+    padding: 100px;
+    display:block;
+}
+.ob {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: box-shadow solid 1px white;
+}
+.ob_item {
+    width: 31%;
+}
+.ob_item .bottom {
+    margin-top: -5px;
+    border-radius: 2%;
+    border: solid 1px white;
+}
